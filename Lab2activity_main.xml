@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Student Details"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/EtName"
+        android:layout_below="@+id/TV"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Student name"></EditText>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/EtRoll"
+        android:layout_below="@+id/EtName"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Student number"></EditText>
+    <Spinner
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/EtRoll"
+        android:id="@+id/listView"
+        android:layout_centerHorizontal="true"
+        ></Spinner>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Btsubmit"
+        ></Button>
+
+
+
+
+
+</RelativeLayout>
